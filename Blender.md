@@ -74,8 +74,10 @@ place 3d cursor in relation to selected vertices:
 ![3dc2](assets/bl_3dc2.png)
 ![3dc3](assets/bl_3dc3.png)
 
-`f`: **fill** face
-`alt + shift + click`: select edge loop
+`f`: **fill** face (填充面)
+`alt + click`: select **edge loop** (边环)
+
+> edge loop is a continuous selection of edges that form a loop. (also works for faces and vertices)
 
 fill the face with holes:
 ![face](assets/bl_fillface.png)
@@ -117,7 +119,7 @@ use addon `align tools` to align objects:
 
 ---
 
-flip normal (翻转法线的方向)：
+**flip** **normal** (翻转法线的方向)：
 ![normal](assets/bl_normals.png)
 ![fn](assets/bl_fn.png)
 ![fo](assets/bl_fo.png)
@@ -144,7 +146,7 @@ move origin to 3d cursor:
 选取对侧到边按 `f` 即可填充面
 ![f](assets/bl_f.png)
 
-inset (内插):
+**inset** (内插):
 ![inset](assets/bl_inset.png)
 
 在该平面的中心打个孔：
@@ -168,3 +170,24 @@ do scale in edit mode, and don't do scale in object mode, cause it will mess up 
 > this could be a reason why boolean modifier doesn't work
 > if you do scale in object mode, you need to apply scale by `cmd + a`
 > ![as](assets/bl_as.png)
+
+---
+
+`alt + d`: linked duplicate
+**linked** object is a copy of the original object, and it will change when the original object changes.
+![ld](assets/bl_ld.png)
+这在制作 **joint** (关节) 时非常有用：
+![ldj](assets/bl_ldj.png)
+object orientation is not linked, only object shape is linked.
+![ldjr](assets/bl_ldjr.png)
+
+**bevel** (斜角) modifier:
+![vg](assets/bl_vg.png)
+![bevelm](assets/bl_bevelm.png)
+使用 vertex group 控制斜角作用范围有时候会不符合我们的预期，比如：
+![vgb](assets/bl_vgb.png)
+
+---
+
+edge offset:
+![eo](assets/bl_eo.png)
