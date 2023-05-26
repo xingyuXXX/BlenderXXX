@@ -146,7 +146,7 @@ move origin to 3d cursor:
 选取对侧到边按 `f` 即可填充面
 ![f](assets/bl_f.png)
 
-**inset** (内插):
+**inset** (内缩):
 ![inset](assets/bl_inset.png)
 
 在该平面的中心打个孔：
@@ -165,7 +165,7 @@ move origin to 3d cursor:
 ![bt](assets/bl_bt.png)
 > 或者使用 addon `booltool`，实现相同效果
 
-do scale in edit mode, and don't do scale in object mode, cause it will mess up the scale of the object:
+do **scale** (缩放) in edit mode, and don't do scale in object mode, cause it will mess up the scale of the object:
 ![scale](assets/bl_so.png)
 > this could be a reason why boolean modifier doesn't work
 > if you do scale in object mode, you need to apply scale by `cmd + a`
