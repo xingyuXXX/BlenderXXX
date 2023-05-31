@@ -13,6 +13,8 @@ export_on_save:
 
 # Blender
 
+<link rel="icon" href="favicon-blender.ico" type="image/x-icon">
+
 by **Xingyu Zhou**
 
 ---
