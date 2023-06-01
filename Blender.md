@@ -15,7 +15,7 @@ export_on_save:
 
 <link rel="icon" href="favicon-blender.ico" type="image/x-icon">
 
-by **Xingyu Zhou**
+by **Xingyu Zhou** <img style="float: right" src="favicon-blender.ico">
 
 ---
 
